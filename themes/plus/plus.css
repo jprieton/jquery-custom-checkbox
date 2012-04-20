@@ -1,0 +1,26 @@
+span.plus.enable-chckon,
+span.plus.enable-chckoff,
+span.plus.disable-chckon,
+span.plus.disable-chckoff {
+	background-image: url('plus-minus.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	margin-left: 2px;
+	margin-right: 2px;
+	position: relative;
+	top: 2px;
+	width: 16px;
+}
+span.plus.enable-chckoff {
+	background-position: 0px -32px;
+}
+span.plus.enable-chckon {
+	background-position: 0px 0px;
+}
+span.plus.disable-chckoff {
+	background-position: 0px -16px;
+}
+span.plus.disable-chckon {
+	background-position: 0px -48px;
+}
