@@ -1,0 +1,32 @@
+span.simple.enable-chckon,
+span.simple.enable-chckoff,
+span.simple.disable-chckon,
+span.simple.disable-chckoff {
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	margin-left: 2px;
+	margin-right: 2px;
+	position: relative;
+	top: 2px;
+	width: 16px;
+}
+span.simple.enable-chckoff {
+	background-image: url('e-off.png');
+}
+span.simple.enable-chckoff:hover {
+	background-image: url('e-off.png');
+}
+span.simple.enable-chckon {
+	background-image: url('e-on.png');
+}
+span.simple.enable-chckon:hover {
+	background-image: url('e-on.png');
+}
+span.simple.disable-chckoff {
+	background-image: url('d-off.png');
+}
+span.simple.disable-chckon {
+	background-image: url('d-on.png');
+}

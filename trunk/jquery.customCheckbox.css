@@ -1,0 +1,22 @@
+span.chckon,
+span.chckoff {
+	background-image: url('sprite_checkbox.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	position: relative;
+	bottom: -1px;
+}
+span.chckoff {
+	background-position: 0px 0px;
+}
+span.chckoff:hover {
+	background-position: 0px -16px;
+}
+span.chckon {
+	background-position: 0px -48px;
+}
+span.chckon:hover {
+	background-position: 0px -32px;
+}
